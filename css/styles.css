@@ -42,10 +42,14 @@ br {
 }
 
 .startscreen {
-	background: #ffffff;
 	color: #000000;
 	padding: 0;
 	position: relative;
+	background-color: #ffffff;
+	background-image: url("../img/QuotefnafSL.png");
+	background-size: contain;
+	background-position: center bottom;
+	background-repeat: no-repeat;
 }
 .startscreen a {
 	color: black;
