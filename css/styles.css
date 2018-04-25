@@ -66,6 +66,12 @@ br {
 .startscreen .container {
 	padding: 0 25px;
 }
+.startscreen h1 {
+	font-size: 18px;
+}
+.startscreen p {
+	font-size: 12px;
+}
 
 .header {
 	width: 100%;
