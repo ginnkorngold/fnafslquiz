@@ -1,0 +1,128 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #808080;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	color: #000000;
+	font-family: 'Walter Turncoat', cursive;
+}
+
+div, a {
+	display: inline-block;
+}
+
+a { 
+	text-decoration: none;
+	color: #ffffff;
+}
+
+br {
+	line-height: 0;
+}
+
+.ishidden {
+	display: none;
+}
+
+.gamescreen {
+	width: 100%;
+	height: 100%;
+	max-width: 320px;
+	max-height: 568px;
+	padding: 25px;
+}
+
+.startscreen {
+	background: #ffffff;
+	color: #000000;
+	padding: 0;
+	position: relative;
+}
+.startscreen a {
+	color: black;
+	background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);  
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #eeeeee),color-stop(1, #cccccc));
+	background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);  
+	background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);  
+	background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);  
+	background-image: -o-linear-gradient(top, #eeeeee, #cccccc); 
+	padding: 5px 10px 5px 10px;
+	font-size: 25px;
+	font-family: ;
+}
+.startscreen .container {
+	padding: 0 25px;
+}
+
+.header {
+	width: 100%;
+	height: auto;
+}
+
+.fnafslquote {
+	width: 100%;
+	height: auto;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+}
+
+.shiftcomplete {
+	width: 100%;
+	height: auto;
+	bottom: 0;
+	left: 0;
+}
+
+.questionscreen {
+	background-color: #000000;
+	color: #ff0000;
+	background-image: url("../img/fnafquizbg.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.questionscreen a {
+	margin-bottom: 15px;
+	color: #ffffff;
+}
+.questionscreen h2 {
+	font-size: 32px;
+	margin-bottom: -18px;
+}
+
+.questionscreen p {
+	margin-bottom: 25px;
+}
+.endresultscreen {
+	background: #000000;
+	color: #ff0000;
+	position: relative;
+}
+.endresultscreen h4 {
+	font-size: 34px;
+}
+.endresultscreen p {
+	color: #ffffff;
+}
+
+.jumpscare {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+	background-image: url("../img/jumpscare.gif");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
