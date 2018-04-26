@@ -105,6 +105,7 @@ br {
 .questionscreen a {
 	margin-bottom: 15px;
 	color: #ffffff;
+
 }
 .questionscreen h2 {
 	font-size: 32px;
@@ -114,16 +115,29 @@ br {
 .questionscreen p {
 	margin-bottom: 25px;
 }
+.questionscreen a:active {
+	color: red;
+}
+.questionscreen a.correct:active {
+	color: green;
+}
 .endresultscreen {
 	background: #000000;
 	color: #ff0000;
 	position: relative;
+	font-size: 25px;
+}
+.endresultscreen h3{
+	margin-bottom: 0;
 }
 .endresultscreen h4 {
-	font-size: 34px;
+	font-size: 120px;
+	margin: 0;
 }
 .endresultscreen p {
 	color: #ffffff;
+	margin-bottom: 0;
+	margin-top: 0;
 }
 
 .jumpscare {
