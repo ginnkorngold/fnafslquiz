@@ -73,6 +73,12 @@ br {
 	font-size: 12px;
 }
 
+#jumscare_preload {
+	width: 1px;
+	height: 1px;
+	opacity: 0.1;
+}
+
 .header {
 	width: 100%;
 	height: auto;
