@@ -115,11 +115,9 @@ br {
 .questionscreen p {
 	margin-bottom: 25px;
 }
-.questionscreen a:active {
-	color: red;
-}
-.questionscreen a.correct:active {
-	color: green;
+.questionscreen a:active, .questionscreen a:hover {
+	transform: scale(1.1);
+	transition: all 0.2s ease;
 }
 .endresultscreen {
 	background: #000000;
